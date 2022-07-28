@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Home.class));
                 finish();
             }
-
         };
 
         Handler h = new Handler();
