@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -53,8 +52,6 @@ public class AddRecord extends AppCompatActivity {
                 int diasInt = Integer.parseInt(diaEd.getText().toString());
                 int heartInt = Integer.parseInt(hrEd.getText().toString());
                 String commentStr = comEd.getText().toString();
-                //dateStr = dateEd.getText().toString();
-               // timeStr = timeEd.getText().toString();
                 Calendar calendar = calendar = Calendar.getInstance();
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy,   HH:mm:ss");
                 date_time = simpleDateFormat.format(calendar.getTime());
