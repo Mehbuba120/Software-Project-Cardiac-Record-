@@ -29,7 +29,6 @@ public class UnitTest {
         return new DataModel(120,80,70,"normal","");
     }
 
-
     /**
      * checks if a record is added successfully on RecordList
      */
