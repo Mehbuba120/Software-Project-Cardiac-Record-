@@ -16,9 +16,7 @@ import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-
 import android.app.DatePickerDialog;
-
 public class AddRecord extends AppCompatActivity {
     Button addButton;
     EditText dateEd,sysEd,diaEd,hrEd,timeEd,comEd;
